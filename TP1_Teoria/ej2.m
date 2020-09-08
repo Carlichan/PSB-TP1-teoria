@@ -46,6 +46,7 @@ for j=2:1:100
             end
         end
     end
+    ecgshift(j,:) = ycorrida;
     subplot(2,1,2)
     plot(t,ycorrida,t,x)
     hold on
